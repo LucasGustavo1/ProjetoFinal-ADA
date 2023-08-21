@@ -1,0 +1,33 @@
+#header-title{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+#row {
+display: flex;
+justify-content: center;
+border: 1px solid black;
+text-align: center;
+
+}
+#formulário {
+   padding: 5px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+input{
+    height: 24px;
+}
+
+#table{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
