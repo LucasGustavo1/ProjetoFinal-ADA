@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="project.js"></script>
+</head>
+
+<body>
+
+    <header id="header-title">
+        <h1>Autor:Lucas Silva</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div id="row">
+
+                <form action="" id="formulário">
+                    <label for="código">Código: </label>
+                    <input placeholder="Código" id="código">
+                    <br><br>
+                    <label for="produto">Produto: </label>
+                    <input placeholder="Produto" id="produto">
+                    <br><br>
+                    <label for="quantidade">Quantidade: </label>
+                    <input placeholder="Quantidade" id="quantidade">
+                    <br><br>
+                    <label for="preço">Preço: </label>
+                    <input placeholder="Preço" id="preço">
+                    <br><br>
+                    <button onclick="enviar()" type="button">Cadastrar</button>
+                    <br><br>
+                </form>
+
+            </div>
+    </main>
+    </div>
+    <section id="table">
+        <table id="tabelaProdutos" border="1">
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+            </tr>
+        </table>
+    </section>
+
+
+</body>
+
+</html>
